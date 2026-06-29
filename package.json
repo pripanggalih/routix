@@ -1,7 +1,7 @@
 {
-  "name": "9router-app",
+  "name": "routix-app",
   "version": "0.5.12",
-  "description": "9Router web dashboard",
+  "description": "Routix web dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev --webpack --port 20127",
@@ -55,6 +55,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "vitest": "^4.1.9"
   }
 }

@@ -1,3 +1,14 @@
+# v0.5.13 (2026-06-29)
+
+## Rebrand
+- Rebrand 9Router → Routix across UI, CLI tool config, filesystem/package id, README/docs, logo, Docker
+- Add `src/lib/brand.js` brand constants module (BRAND_NAME, APP_NAME, CLOUD_URL)
+- dataDir: import APP_NAME from brand + legacy `~/.9router` migration via `MIGRATE_LEGACY_DATA`
+- Cloud: `CLOUD_URL` → `https://routix.web.id` (cloud sync off until backend ready; `cloudEnabled` default false)
+- Logo: favicon `9`→`R`, icons `9R`→`Rx`
+- Docker: container/image/volume `9router`→`routix`, build local (no upstream image pull)
+- Remove upstream links/badges from README; repoint GitHub links to fork repo
+
 # v0.5.12 (2026-06-26)
 
 ## Features
